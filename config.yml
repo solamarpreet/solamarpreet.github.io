@@ -15,24 +15,20 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+menu:
+    main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
 
 
 outputs:
@@ -61,16 +57,19 @@ params:
     images: ["papermod-cover.png"]
 
     profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
+        enabled: true
+        Title: Amarpreet Singh
+        Content: >
+            Cybersecurity engineer with expertise in Python, DevSecOps, OSINT and Incident Response.
+            I also love reading, swimming, table tennis & badminton.  
+        imageUrl: "solpic.jpeg"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Archives
+            - name: Blog
               url: archives
-            - name: Tags
+            - name: Projects
               url: tags
 
     homeInfoParams:
