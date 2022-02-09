@@ -1,4 +1,4 @@
-baseURL: "solamarpreet.github.io"
+baseURL: "https://solamarpreet.github.io"
 title: Sol's Blog
 paginate: 5
 theme: PaperMod
