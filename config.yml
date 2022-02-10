@@ -17,17 +17,20 @@ minify:
 
 menu:
     main:
+        - name: Posts
+          url: posts
+          weight: 1
         - name: Archive
           url: archives
-          weight: 5
+          weight: 2
+        - name: Guides
+          url: series
+          weight: 3
+        - name: My Projects
+          url: tags/
+          weight: 4
         - name: Search
           url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: Categories
-          url: categories/
           weight: 10
 
 
@@ -54,7 +57,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
+    images: ["solpic.png"]
 
     profileMode:
         enabled: true
@@ -68,7 +71,7 @@ params:
         # imageHeight: 120
         buttons:
             - name: Blog
-              url: archives
+              url: posts
             - name: Projects
               url: tags
 
@@ -87,11 +90,6 @@ params:
           url: "index.xml"
         - name: email
           url: "mailto:solamarpreet@gmail.com"
-
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
 
     # label:
     #     text: "Home"
