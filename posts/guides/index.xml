@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sol&#39;s Blog</title>
-    <link>https://solamarpreet.github.io/</link>
-    <description>Recent content on Sol&#39;s Blog</description>
+    <title>Guides on Sol&#39;s Blog</title>
+    <link>https://solamarpreet.github.io/posts/guides/</link>
+    <description>Recent content in Guides on Sol&#39;s Blog</description>
     <image>
       <url>https://solamarpreet.github.io/solpic.png</url>
       <link>https://solamarpreet.github.io/solpic.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Feb 2022 16:36:33 +0530</lastBuildDate><atom:link href="https://solamarpreet.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://solamarpreet.github.io/posts/hello-world/</link>
-      <pubDate>Thu, 10 Feb 2022 16:36:33 +0530</pubDate>
-      
-      <guid>https://solamarpreet.github.io/posts/hello-world/</guid>
-      <description>Hi.
-Made the switch from Medium since content there is now locked behind login pages. I thought of starting this blog in order to help newcomers understand tech concepts that are not well explained or elaborated upon by other resources.
-If you feel the need to contact me use any other methods available at the homepage or write to me at solamarpreet@protonmail.com</description>
-    </item>
-    
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://solamarpreet.github.io/posts/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://solamarpreet.github.io/posts/guides/markdown-syntax/</link>
@@ -47,8 +36,6 @@ If you feel the need to contact me use any other methods available at the homepa
       <guid>https://solamarpreet.github.io/posts/guides/emoji-support/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
-    
-    
     
   </channel>
 </rss>

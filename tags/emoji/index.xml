@@ -5,17 +5,17 @@
     <link>https://solamarpreet.github.io/tags/emoji/</link>
     <description>Recent content in emoji on Sol&#39;s Blog</description>
     <image>
-      <url>https://solamarpreet.github.io/papermod-cover.png</url>
-      <link>https://solamarpreet.github.io/papermod-cover.png</link>
+      <url>https://solamarpreet.github.io/solpic.png</url>
+      <link>https://solamarpreet.github.io/solpic.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://solamarpreet.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://solamarpreet.github.io/posts/emoji-support/</link>
+      <link>https://solamarpreet.github.io/posts/guides/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://solamarpreet.github.io/posts/emoji-support/</guid>
+      <guid>https://solamarpreet.github.io/posts/guides/emoji-support/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
     
