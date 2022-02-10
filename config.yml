@@ -20,18 +20,18 @@ menu:
         - name: Posts
           url: posts
           weight: 1
-        - name: Archive
-          url: archives
-          weight: 2
         - name: Guides
           url: series
-          weight: 3
+          weight: 2
         - name: My Projects
           url: tags/
+          weight: 3
+        - name: Archive
+          url: archives
           weight: 4
         - name: Search
           url: search/
-          weight: 10
+          weight: 5
 
 
 outputs:
