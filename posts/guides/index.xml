@@ -5,37 +5,9 @@
     <link>https://solamarpreet.github.io/posts/guides/</link>
     <description>Recent content in Guides on Sol&#39;s Blog</description>
     <image>
-      <url>https://solamarpreet.github.io/solpic.png</url>
-      <link>https://solamarpreet.github.io/solpic.png</link>
+      <url>https://solamarpreet.github.io/solpic.jpeg</url>
+      <link>https://solamarpreet.github.io/solpic.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://solamarpreet.github.io/posts/guides/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://solamarpreet.github.io/posts/guides/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/posts/guides/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://solamarpreet.github.io/posts/guides/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/posts/guides/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://solamarpreet.github.io/posts/guides/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/posts/guides/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://solamarpreet.github.io/posts/guides/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

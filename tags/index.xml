@@ -5,73 +5,9 @@
     <link>https://solamarpreet.github.io/tags/</link>
     <description>Recent content in Tags on Sol&#39;s Blog</description>
     <image>
-      <url>https://solamarpreet.github.io/solpic.png</url>
-      <link>https://solamarpreet.github.io/solpic.png</link>
+      <url>https://solamarpreet.github.io/solpic.jpeg</url>
+      <link>https://solamarpreet.github.io/solpic.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://solamarpreet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>css</title>
-      <link>https://solamarpreet.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://solamarpreet.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://solamarpreet.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://solamarpreet.github.io/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://solamarpreet.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://solamarpreet.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://solamarpreet.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://solamarpreet.github.io/tags/emoji/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://solamarpreet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
