@@ -24,7 +24,7 @@ menu:
           url: series
           weight: 2
         - name: My Projects
-          url: tags/
+          url: projects/
           weight: 3
         - name: Archive
           url: archives
@@ -73,7 +73,7 @@ params:
             - name: Blog
               url: posts
             - name: Projects
-              url: tags
+              url: projects
 
     homeInfoParams:
         Title: "Amarpreet Singh"
