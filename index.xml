@@ -11,6 +11,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 10 Feb 2022 16:36:33 +0530</lastBuildDate><atom:link href="https://solamarpreet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My Projects</title>
+      <link>https://solamarpreet.github.io/projects/</link>
+      <pubDate>Sun, 20 Feb 2022 23:01:49 +0530</pubDate>
+      
+      <guid>https://solamarpreet.github.io/projects/</guid>
+      <description>IndiaLeaks IndiaLeaks is an anonymous whistle-blowing platform that helps expose government wrongdoing &amp; corporate non compliance. Built on top of the Tor project in partnership with organizations such as Free Press Unlimited, Indialeaks ensures your complaints receive wide media coverage.
+Link : https://indialeaks.org
+RTILikho RTILikho helps citizens, journalists, activists and lawyers file RTI applications. At RTILikho we empower and enable people to make better use of the Right to Information Act.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://solamarpreet.github.io/posts/hello-world/</link>
       <pubDate>Thu, 10 Feb 2022 16:36:33 +0530</pubDate>
