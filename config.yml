@@ -24,13 +24,13 @@ menu:
           url: series
           weight: 2
         - name: My Projects
-          url: projects/
+          url: projects
           weight: 3
         - name: Archive
           url: archives
           weight: 4
         - name: Search
-          url: search/
+          url: search
           weight: 5
 
 

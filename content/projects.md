@@ -19,6 +19,8 @@ Link : [https://indialeaks.org](https://indialeaks.org)
 
 Link : [https://rtilikho.com](https://rtilikho.com)
 
+Twitter Helpline : [https://twitter.com/rtilikho](https://twitter.com/rtilikho)
+
 <br />
 
 ## Capture The Python
@@ -31,6 +33,6 @@ Link : [https://github.com/solamarpreet/CTPy](https://github.com/solamarpreet/CT
 
 ## RTIBank <sup>[in development]</sup>
 
-<p>RTIbank is a digital repository of RTI responses. Citizens can use RTIBank to search for data that has already been requested by other people previously using RTI.</p>
+<p>RTIbank is a digital repository of RTI responses. Citizens can use RTIBank to search for data that has already been requested previously by other people using RTI.</p>
 
 Link : [https://rtibank.com](https://rtibank.com)
