@@ -31,6 +31,14 @@ Link : [https://github.com/solamarpreet/CTPy](https://github.com/solamarpreet/CT
 
 <br />
 
+## DockerShell
+
+<p>A python based shell for running non-interactive docker commands.</p>
+
+Link : [https://github.com/solamarpreet/dockershell](https://github.com/solamarpreet/dockershell)
+
+<br />
+
 ## RTIBank <sup>[in development]</sup>
 
 <p>RTIbank is a digital repository of RTI responses. Citizens can use RTIBank to search for data that has already been requested previously by other people using RTI.</p>
