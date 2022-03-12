@@ -52,8 +52,8 @@ params:
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
