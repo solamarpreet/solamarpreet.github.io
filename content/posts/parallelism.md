@@ -11,7 +11,8 @@ In order to properly utilize Python's concurrent and parallel features, it is im
 
 
 ## History
-When Python was first released in 1991 most general purpose computers had a single CPU core. Due to this most programs were being written in a single threaded fashion. Bearing these factors in mind the language was designed in order to abstractify concepts such as memory management and thus make the programmer's task substantially easier.
+When Python was first released in 1991 general purpose computers had a single CPU core. Most of the programming done up until then was single threaded in nature. Even though computer experts understood the potential of multithreaded computing which would allow tasks to run concurrently, there was a lack of OS support for threads. This changed in 1993 when Windows NT was released which included a scheduler that supported threads. It was a giant leap for computing as the operating system could now run multiple tasks at the same time by making better use of the CPU. Python now had to implement threads in order to keep up with this latest development.
+One of the major features of the Python programming language was automated memory management. It achieved this by reference counting. Reference counting however wasnt thread safe. Because a context switch was beyond the control of
 
 
 We now take a look at the major concurrency & parallelism related libraries available in Python 3 and discuss each of their applications.
