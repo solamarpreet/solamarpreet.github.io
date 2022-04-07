@@ -31,11 +31,11 @@ Link : [https://github.com/solamarpreet/CTPy](https://github.com/solamarpreet/CT
 
 <br />
 
-## DockerShell
+## Dockersh
 
-<p>A python based shell for running non-interactive docker commands.</p>
+<p>A python based shell for running Docker commands featuring autocomplete & command history.</p>
 
-Link : [https://github.com/solamarpreet/dockershell](https://github.com/solamarpreet/dockershell)
+Link : [https://github.com/solamarpreet/dockersh](https://github.com/solamarpreet/dockersh)
 
 <br />
 
