@@ -10,6 +10,8 @@ It is well known that Python has a problem when it comes to installation of appl
 
 In this guide I will outline the best way to install Python applications & libraries from PyPI without breaking your system and causing a dependency hell.
 
+<br>
+
 ## Is the program I am about to install an application or a library?
 
 In the context of installation we define an application as a Python program which exposes a user interface that can be interacted with. For eg. `mitmproxy` and `dockersh` both offer a CLI when called from the terminal which you can use in real time to complete tasks.
@@ -18,10 +20,90 @@ Libraries on the other hand are the building blocks of above mentioned applicati
 
 Sometimes a downloadable package exposes a CLI but also pulls in libraries that you can use in your programs to build new tools. Examples of such hybrid packages are `Impacket`. When dealing with such a package you should look at the purpose you require the package for. Do you wish to use it's CLI or do you wish to use the modules it provides to build an application? Depending on this purpose the method of installation changes as described below.
 
+<br>
+
 ## Installing applications
 
-The best way to install Python applications going forward is using `pipx`. To install `pipx` in Ubuntu systems simply type the following in the terminal
-```terminal
+The best way to install Python applications going forward is using `pipx`. On an Ubuntu system simply type the following in the terminal
+```sh
 sudo apt install pipx
 ```
-`pipx` is an officially supported tool that allows you to run Python applications in isolated environments.
+```sh
+pipx ensurepath
+```
+`pipx` allows you to run Python applications by installing them in isolated environments along with their dependencies. If your distro's package repository doesn't contain `pipx` you can visit this [link](https://pypa.github.io/pipx/installation/) and find installation instructions for your platform.
+
+
+- ### Apps that don't require root privileges
+
+Applications that don't require root privileges can be installed using the following command
+```sh
+pipx install PACKAGE
+```
+In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `pipx install mitmproxy`
+
+- ### Apps that require root privileges
+
+For applications that require root privileges use the following command
+```sh
+sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin pipx install PACKAGE
+```
+In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin pipx install dockersh`
+
+<br>
+
+## Installing libraries
+
+Since isolated installation of libraries are only really done during development you should only be installing them inside of python virtual environments. To get started we first need to install `venv` on our system.
+
+```sh
+sudo apt install python3-venv
+```
+<br>
+
+Then we will create a new folder that will hold our project and then we will configure a virtual environment inside of it.
+
+```sh
+mkdir myproject & cd myproject
+```
+```sh
+python3 -m venv myproject-venv
+```
+
+> _Be sure to add the `myproject-venv/` folder to `.gitignore` if you are using git based workflows._
+
+<br>
+
+To begin development you need to activate the virtual environment which can be done by
+```sh
+source myproject-venv/bin/activate
+```
+
+This will change your prompt to `(myproject-venv) user@mycomputer:~/myproject$` which signifies that the virtual environment is currently active.
+
+<br>
+
+You can now install any library from pip and it will be installed in the current virtual environment only without affecting your system or any other application.
+
+```sh
+python3 -m pip install PACKAGE
+```
+
+<br>
+
+Finally when you are done with development work and wish to revert back to your regular system, simply enter `deactivate` at the terminal.
+
+```sh
+deactivate
+```
+
+<br>
+
+- ### Using sudo inside a virtual environment
+
+A lot of times the application you are building or a component library requires root privileges to work correctly. In order to use `sudo` inside a virtual environment it has to be called differently than usual.
+
+```sh
+sudo -s "PATH=$PATH" main.py
+```
+This will ensure that the sudo uses the current virtual environment's Python interpreter than the system's interpreter.
