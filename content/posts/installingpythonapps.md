@@ -38,17 +38,17 @@ python3 -m pipx ensurepath
 
 Applications that don't require root privileges can be installed using the following command
 ```sh
-pipx install PACKAGE
+python3 -m pipx install PACKAGE
 ```
-In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `pipx install mitmproxy`
+In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `python3 -m pipx install mitmproxy`
 
 - ### Apps that require root privileges
 
 For applications that require root privileges use the following command
 ```sh
-sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin pipx install PACKAGE
+sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin python3 -m pipx install PACKAGE
 ```
-In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin pipx install dockersh`
+In the above command replace `PACKAGE` with the name of the package you wish to install. For eg. `sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin python3 -m pipx install dockersh`
 
 <br>
 
