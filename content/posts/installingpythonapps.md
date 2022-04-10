@@ -24,9 +24,9 @@ Sometimes a downloadable package exposes a CLI but also pulls in libraries that 
 
 ## Installing applications
 
-The best way to install Python applications going forward is using `pipx`. On an Ubuntu system simply type the following in the terminal
+The best way to install Python applications going forward is using `pipx`. On an Ubuntu system type the following in the terminal
 ```sh
-sudo apt install python3-pip pipx
+sudo apt install python3-pip pipx python3-venv
 ```
 ```sh
 python3 -m pipx ensurepath
@@ -61,7 +61,7 @@ sudo apt install python3-venv
 ```
 <br>
 
-Then we will create a new folder that will hold our project and then we will configure a virtual environment inside of it.
+Now we create a new folder that will hold our project and then we will configure a virtual environment inside of it.
 
 ```sh
 mkdir myproject & cd myproject
@@ -83,7 +83,7 @@ This will change your prompt to `(myproject-venv) user@mycomputer:~/myproject$` 
 
 <br>
 
-You can now install any library from pip and it will be installed in the current virtual environment only without affecting your system or any other application.
+You can now install any library from pip and it will be installed in the current virtual environment without affecting your system or any other application present on your system.
 
 ```sh
 python3 -m pip install PACKAGE
@@ -112,4 +112,4 @@ This will ensure that the sudo uses the current virtual environment's Python int
 
 ## Conclusion
 
-Note that in the above commands we always invoke `pip`, `pipx` and `venv` as python modules like `python3 -m pipx --version` instead of `pipx --version`. Always invoke these tools in this manner as the latter method can result in unexpected behaviour sometimes. The practices described above should serve adequately for most users. They will only slightly change if you are working with `pyenv` or a recent version of Python that you installed on your own. If you have any queries feel free to reach out to me at [solamarpreet@protonmail.com](mailto:solamarpreet@protonmail.com)
+Note that in the above commands we invoke `pip`, `pipx` and `venv` as python modules like `python3 -m pipx --version` instead of `pipx --version`. Always invoke these tools in this manner as the latter method can result in unexpected behaviour at times. The practices described above should serve adequately for most users. They will only slightly change if you are working with `pyenv` or a recent version of Python that you installed on your own. If you have any queries feel free to reach out to me at [solamarpreet@protonmail.com](mailto:solamarpreet@protonmail.com)
