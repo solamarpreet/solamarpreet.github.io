@@ -63,7 +63,7 @@ params:
         enabled: true
         title: Amarpreet Singh
         subtitle: >
-            Cybersecurity engineer with expertise in Python, DevSecOps, OSINT and Incident Response.
+            Cybersecurity engineer with expertise in Python, Digital Forensics, OSINT and Incident Response.
             I also love reading, swimming, table tennis & badminton.  
         imageUrl: "solpic.jpeg"
         imageTitle: my image
@@ -78,7 +78,7 @@ params:
     homeInfoParams:
         Title: "Amarpreet Singh"
         Content: >
-            Cybersecurity engineer with expertise in Python, DevSecOps, OSINT and Incident Response.
+            Cybersecurity engineer with expertise in Python, Digital Forensics, OSINT and Incident Response.
             I also love reading, swimming, table tennis & badminton.  
 
     socialIcons:
