@@ -18,8 +18,8 @@ jobs:
 
       - name: Add username and email
         run: |
-          git config user.name Amarpreet Singh
-          git config user.email solamarpreet@gmail.com
+          git config --global user.name Amarpreet Singh
+          git config --global user.email solamarpreet@gmail.com
 
       - name: Get Theme
         run: git submodule update --init --recursive
