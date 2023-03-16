@@ -42,7 +42,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Amarpreet Singh - Cybersecurity Engineer & Researcher"
+    description: "Amarpreet Singh - DevOps & Cybersecurity Engineer"
     author: Amarpreet Singh
     # author: ["Me", "You"] # multiple authors
 
@@ -63,7 +63,7 @@ params:
         enabled: true
         title: Amarpreet Singh
         subtitle: >
-            Cybersecurity engineer with expertise in Python, Digital Forensics, OSINT and Incident Response.
+            DevOps engineer with expertise in Python, Network Security, Systems Design and Incident Response.
             I also love reading, swimming, table tennis & badminton.  
         imageUrl: "solpic.jpeg"
         imageTitle: my image
@@ -78,7 +78,7 @@ params:
     homeInfoParams:
         Title: "Amarpreet Singh"
         Content: >
-            Cybersecurity engineer with expertise in Python, Digital Forensics, OSINT and Incident Response.
+            DevOps engineer with expertise in Python, Network Security, Systems Design and Incident Response.
             I also love reading, swimming, table tennis & badminton.  
 
     socialIcons:
@@ -89,7 +89,7 @@ params:
         - name: Rss
           url: "index.xml"
         - name: email
-          url: "mailto:solamarpreet@protonmail.com"
+          url: "mailto:solamarpreet@gmail.com"
 
     # label:
     #     text: "Home"
