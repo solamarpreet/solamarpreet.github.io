@@ -10,60 +10,50 @@
       <link>https://solamarpreet.github.io/solpic.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Apr 2022 11:49:39 +0530</lastBuildDate><atom:link href="https://solamarpreet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Apr 2022 11:49:39 +0530</lastBuildDate>
+    <atom:link href="https://solamarpreet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pip</title>
+      <title>Pip</title>
       <link>https://solamarpreet.github.io/tags/pip/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/pip/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pip3</title>
+      <title>Pip3</title>
       <link>https://solamarpreet.github.io/tags/pip3/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/pip3/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pipx</title>
+      <title>Pipx</title>
       <link>https://solamarpreet.github.io/tags/pipx/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/pipx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pypi</title>
+      <title>Pypi</title>
       <link>https://solamarpreet.github.io/tags/pypi/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/pypi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://solamarpreet.github.io/tags/python/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python3</title>
+      <title>Python3</title>
       <link>https://solamarpreet.github.io/tags/python3/</link>
       <pubDate>Sat, 09 Apr 2022 11:49:39 +0530</pubDate>
-      
       <guid>https://solamarpreet.github.io/tags/python3/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
